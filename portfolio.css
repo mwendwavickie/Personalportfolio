@@ -1,0 +1,78 @@
+/*setting the font family for the entire body*/
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(105, 98, 98);
+
+}
+/*styling for the header*/
+header {
+    background-color: rgb(38, 45, 83);
+    color: white;
+    padding: 20px;
+    text-align: right;
+
+}
+/*styling for the links*/
+a:link {
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+}
+/*styling for the footer */
+footer { 
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+
+
+}
+/*styling for the navigation menu*/
+nav ul{
+    list-style-type: none;
+    
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+/*styling for hover effects on navgation links*/
+nav a:hover{
+    color: cyan;
+}
+/*styling for tables*/
+table {
+    color: black;
+    width: 100%;
+    margin-top: 20px;
+
+
+}
+/*styling for headings*/
+h2 {
+    text-align: center;
+    font-size: 40px;
+
+}
+/*styling for images*/
+img{
+    width: 300px;
+    height: auto;;
+    position: relative;
+    transition: all .4s ease-in-out;
+}
+img :hover{
+    transform: scale(1.5);
+}
+/*styling for sections*/
+section{
+    padding: 50px 20px;
+}
+/*styling for footer lists*/
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

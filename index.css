@@ -1,0 +1,126 @@
+        /* CSS styles */
+        body {
+            background-color:rgb(105, 98, 98);
+        }
+        /* Header styles */
+        header {
+            width: calc(100% - 40px);
+            position: sticky;
+            top: 0;
+            left: 0;
+            margin: 20px;
+            padding: 20px;
+            background-color: #081b29;
+            opacity: 0.8;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+            border-radius: 10px;
+        }
+        /* Anchor styles */
+        a {
+            margin: 5px;
+            color: aliceblue;
+            text-decoration: none;
+        }
+        /* Logo styles */
+        .logo {
+            font-size: 25px;
+            font-weight: 600;
+        }
+        /* Navigation styles */
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        /* Navigation link hover effect */
+        .navbar a:hover{
+            color: cyan;
+        }
+        /* Home section styles */
+        .home{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 0 10%;
+        }
+        /* Home content styles */
+        .home-content{
+            max-width: 600px;
+        }
+        /* Heading styles */
+        .home-content h1{
+            font-size: 56px;
+            font-weight: 700;
+            color: aliceblue;
+        }
+        /* Subheading styles */
+        .home-content h3{
+            font-size: 32px;
+            font-weight: 700;
+            color:#081b29;
+        }
+        /* Paragraph styles */
+        .home-content p{
+            font-size: 16px;
+            color: aliceblue;
+        }
+        /* Button styles */
+        button{
+            width: 160px;
+            height: 60px;
+            border-radius: 10px;
+            background: transparent;
+            color: aliceblue;
+            font-size: 30px;
+            border: 2px solid #081b29;
+        } 
+        /* Button hover effect */
+        button:hover{
+            background-color: #081b29;
+        }
+        /* Social icons container styles */
+        .icons{
+            display: flex;
+            margin: 40px auto 20px;
+            justify-content: center;
+            width: 170px;
+        }
+        /* Social icon styles */
+        .icons a{
+            display: inline-flex;
+            width: 40px;
+            height: 40px;
+            background: transparent;
+            border: 2px solid #081b29;
+            border-radius: 50%;
+            font-size: 20px;
+            color: aqua;
+            text-decoration: none;
+        }
+        /* Image styles */
+        img{
+            height: 30px;
+            width: auto;
+            margin: auto;
+        }
+        /* Hand image styles */
+        .hand img{
+            height: 500px;
+            width: auto;
+        }
+        footer{
+            background-color: hsl(0, 0%, 20%);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            width: 100%;
+        }
+        footer ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }

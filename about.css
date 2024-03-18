@@ -1,0 +1,53 @@
+    
+header {
+    background-color: rgb(38, 45, 83);
+    color: white;
+    padding: 20px;
+    text-align: right;
+    }    
+footer { 
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    
+    }
+footer ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        }    
+h1, h2, h3 {
+    font-size: 24px;
+    color: #081b29;
+    font-weight: bold;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+}
+   nav a {
+    color: bisque;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+body{
+    background-color: rgba(105, 98, 98);
+}
+
+footer { 
+    color: white; 
+    padding: 20px; 
+}
+
+footer ul li a {
+    color: white; 
+    text-decoration: none; 
+}
